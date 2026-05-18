@@ -12,7 +12,7 @@ const FriendCard = ({friend}) => {
   } = friend;
 
   return (
-    <Link to="/friend/1">
+    <Link to={`/friend/${friend.id}`}>
     <div className="card bg-base-100 shadow-xl">
 
       <figure className="pt-5">

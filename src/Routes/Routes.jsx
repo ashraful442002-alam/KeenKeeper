@@ -12,6 +12,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />, 
 
     children: [
       {
@@ -30,12 +31,10 @@ export const router = createBrowserRouter([
       },
 
       {
-  path: "/friend/:id",
-  element: <FriendDetails />,
-  loader: () => fetch('/friends.json')
-},
+        path: "friend/:id",
+        element: <FriendDetails />,
+        loader: () => fetch("/friends.json"),
+      },
     ],
-
-    errorElement: <ErrorPage />,
   },
 ]);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import FriendsInfo from './FriendsInfo';
-import toast from 'react-hot-toast';
+import { toast } from 'react-toastify';
 
 const FriendDetails = () => {
 
@@ -18,29 +18,26 @@ const friend = friends.find(
   }
 
 
-  const handleInteraction = (type) => {
+const handleCheckIn = (type) => {
 
   const newActivity = {
     id: Date.now(),
-    type,
+    type: type,
     title: `${type} with ${friend.name}`,
-    date: new Date().toLocaleDateString(),
+    date: new Date().toLocaleDateString()
   };
 
-  const existingActivities =
-    JSON.parse(localStorage.getItem("timeline")) || [];
+  const oldTimeline =
+    JSON.parse(localStorage.getItem('timeline')) || [];
 
-  const updatedActivities = [
-    ...existingActivities,
-    newActivity
-  ];
+  const updatedTimeline = [...oldTimeline, newActivity];
 
   localStorage.setItem(
-    "timeline",
-    JSON.stringify(updatedActivities)
+    'timeline',
+    JSON.stringify(updatedTimeline)
   );
 
-  toast.success(`${type} added to timeline`);
+  toast.success(`${type} added successfully`);
 };
 
     return (
@@ -117,15 +114,15 @@ const friend = friends.find(
 
             <div className="flex gap-4 mt-4">
 
-              <button onClick={()=>handleInteraction("Call")} className="btn "><img src="/src/assets/call.png" alt="" width="16"/>
+              <button onClick={()=>handleCheckIn("Call")} className="btn "><img src="/src/assets/call.png" alt="" width="16"/>
                 Call
               </button>
 
-              <button onClick={()=>handleInteraction("Text")} className="btn"><img src="/src/assets/text.png" alt="" width="20" />
+              <button onClick={()=>handleCheckIn("Text")} className="btn"><img src="/src/assets/text.png" alt="" width="20" />
                 Text
               </button>
 
-              <button onClick={()=>handleInteraction("Video")} className="btn "><img src="/src/assets/video.png" alt="" width="20"/>
+              <button onClick={()=>handleCheckIn("Video")} className="btn "><img src="/src/assets/video.png" alt="" width="20"/>
                 Video
               </button>
 

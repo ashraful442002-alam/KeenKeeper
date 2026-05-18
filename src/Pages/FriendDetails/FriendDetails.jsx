@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import FriendsInfo from './FriendsInfo';
-import { toast } from 'react-toastify';
+import toast from "react-hot-toast";
 
 const FriendDetails = () => {
 
@@ -114,15 +114,15 @@ const handleCheckIn = (type) => {
 
             <div className="flex gap-4 mt-4">
 
-              <button onClick={()=>handleCheckIn("Call")} className="btn "><img src="/src/assets/call.png" alt="" width="16"/>
+              <button onClick={()=>handleCheckIn("Call")} className="btn "><img src="/call.png" alt="" width="16"/>
                 Call
               </button>
 
-              <button onClick={()=>handleCheckIn("Text")} className="btn"><img src="/src/assets/text.png" alt="" width="20" />
+              <button onClick={()=>handleCheckIn("Text")} className="btn"><img src="/text.png" alt="" width="20" />
                 Text
               </button>
 
-              <button onClick={()=>handleCheckIn("Video")} className="btn "><img src="/src/assets/video.png" alt="" width="20"/>
+              <button onClick={()=>handleCheckIn("Video")} className="btn "><img src="/video.png" alt="" width="20"/>
                 Video
               </button>
 

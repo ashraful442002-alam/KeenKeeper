@@ -18,7 +18,7 @@ const friends = useLoaderData();
       <div>
 
         <Banner/>
-        <FeaturedCard/>
+        
         <Friends/>
       </div>
     );

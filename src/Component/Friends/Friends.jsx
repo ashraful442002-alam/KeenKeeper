@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import FriendCard from "./FriendCard";
+import FeaturedCard from "../FeaturedCard/FeaturedCard";
 
 const Friends = () => {
 
@@ -12,7 +13,11 @@ const Friends = () => {
   }, []);
 
   return (
+
     <div className="container mx-auto px-4 py-10">
+      <FeaturedCard friends={friends}/>
+
+    
 
       <h2 className="text-4xl font-bold mb-8">
         Your Friends

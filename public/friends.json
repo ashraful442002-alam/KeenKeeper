@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "Alex Johnson",
-    "picture": "https://i.ibb.co/7QpKsCX/man1.jpg",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=90",
     "email": "alex.johnson@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": "college", 
+    "tags": "college",
     "bio": "Met during university orientation in Chattogram. We still plan hiking trips every winter.",
     "goal": 14,
     "next_due_date": "2026-05-22"
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Mitchell",
-    "picture": "https://i.ibb.co/zr8FQ0M/woman1.jpg",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=90",
     "email": "sarah.mitchell@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Brown",
-    "picture": "https://i.ibb.co/Nr6X8bK/man2.jpg",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=90",
     "email": "michael.brown@gmail.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -38,11 +38,11 @@
   {
     "id": 4,
     "name": "Emma Wilson",
-    "picture": "https://i.ibb.co/fk3x7xC/woman2.jpg",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=90",
     "email": "emma.wilson@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": "travel", 
+    "tags": "travel",
     "bio": "Travel partner from our Sylhet tour group who enjoys nature photography.",
     "goal": 15,
     "next_due_date": "2026-06-02"
@@ -50,11 +50,11 @@
   {
     "id": 5,
     "name": "Daniel Carter",
-    "picture": "https://i.ibb.co/1m9dK2L/man3.jpg",
+    "picture": "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=600&q=90",
     "email": "daniel.carter@gmail.com",
     "days_since_contact": 21,
     "status": "overdue",
-    "tags": "office", 
+    "tags": "office",
     "bio": "Former team lead who guided me during my first internship project.",
     "goal": 14,
     "next_due_date": "2026-05-18"
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Olivia Davis",
-    "picture": "https://i.ibb.co/0c8Lx6M/woman3.jpg",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=90",
     "email": "olivia.davis@gmail.com",
     "days_since_contact": 8,
     "status": "almost due",
@@ -74,11 +74,11 @@
   {
     "id": 7,
     "name": "Ryan Thompson",
-    "picture": "https://i.ibb.co/jM5x5kT/man4.jpg",
+    "picture": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=600&q=90",
     "email": "ryan.thompson@gmail.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": "gym", 
+    "tags": "gym",
     "bio": "Workout buddy who keeps everyone motivated for morning fitness sessions.",
     "goal": 7,
     "next_due_date": "2026-05-24"
@@ -86,14 +86,13 @@
   {
     "id": 8,
     "name": "Sophia Martinez",
-    "picture": "https://i.ibb.co/KD3mM8h/woman4.jpg",
+    "picture": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=600&q=90",
     "email": "sophia.martinez@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
-    "tags": "startup", 
+    "tags": "startup",
     "bio": "Met at a startup meetup event and regularly exchange business ideas.",
     "goal": 14,
     "next_due_date": "2026-05-19"
   }
-  
 ]

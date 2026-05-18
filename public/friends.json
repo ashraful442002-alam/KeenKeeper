@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "https://i.ibb.co/7QpKsCX/man1.jpg",
+    "email": "alex.johnson@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": "college", 
+    "bio": "Met during university orientation in Chattogram. We still plan hiking trips every winter.",
+    "goal": 14,
+    "next_due_date": "2026-05-22"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Mitchell",
+    "picture": "https://i.ibb.co/zr8FQ0M/woman1.jpg",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": "work",
+    "bio": "Worked together on several UI/UX projects and often share creative resources.",
+    "goal": 10,
+    "next_due_date": "2026-05-28"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://i.ibb.co/Nr6X8bK/man2.jpg",
+    "email": "michael.brown@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": "gaming",
+    "bio": "School friend who loves football, gaming nights, and tech discussions.",
+    "goal": 12,
+    "next_due_date": "2026-05-20"
+  },
+  {
+    "id": 4,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co/fk3x7xC/woman2.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": "travel", 
+    "bio": "Travel partner from our Sylhet tour group who enjoys nature photography.",
+    "goal": 15,
+    "next_due_date": "2026-06-02"
+  },
+  {
+    "id": 5,
+    "name": "Daniel Carter",
+    "picture": "https://i.ibb.co/1m9dK2L/man3.jpg",
+    "email": "daniel.carter@gmail.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": "office", 
+    "bio": "Former team lead who guided me during my first internship project.",
+    "goal": 14,
+    "next_due_date": "2026-05-18"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Davis",
+    "picture": "https://i.ibb.co/0c8Lx6M/woman3.jpg",
+    "email": "olivia.davis@gmail.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": "book club",
+    "bio": "We met through an online book club and discuss novels every month.",
+    "goal": 10,
+    "next_due_date": "2026-05-21"
+  },
+  {
+    "id": 7,
+    "name": "Ryan Thompson",
+    "picture": "https://i.ibb.co/jM5x5kT/man4.jpg",
+    "email": "ryan.thompson@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": "gym", 
+    "bio": "Workout buddy who keeps everyone motivated for morning fitness sessions.",
+    "goal": 7,
+    "next_due_date": "2026-05-24"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Martinez",
+    "picture": "https://i.ibb.co/KD3mM8h/woman4.jpg",
+    "email": "sophia.martinez@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": "startup", 
+    "bio": "Met at a startup meetup event and regularly exchange business ideas.",
+    "goal": 14,
+    "next_due_date": "2026-05-19"
+  }
+  
+]

@@ -1,5 +1,7 @@
 import React from 'react';
 import Banner from '../../Component/Banner/Banner';
+import FeaturedCard from '../../Component/FeaturedCard/FeaturedCard';
+import Friends from '../../Component/Friends/Friends';
 
 const Homepage = () => {
     return (
@@ -7,6 +9,8 @@ const Homepage = () => {
       <div>
 
         <Banner/>
+        <FeaturedCard/>
+        <Friends/>
       </div>
     );
 };
